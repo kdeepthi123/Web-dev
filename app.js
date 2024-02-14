@@ -59,6 +59,9 @@ window.addEventListener('keyup', (e) => {
         case "ArrowLeft":
             moveLeft();
             break;
+            case "ArrowRight":
+                moveLeft();
+                break;
         default:
             return
     }
