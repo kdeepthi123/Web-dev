@@ -66,3 +66,11 @@ window.addEventListener('keyup', (e) => {
     assignRandom()
     display()
 })
+
+function changeColor(row,col){
+    let value=board[row][col];
+    return `hsla(220,${(100/12)*(Math.log2(value))}%,${100-(Math.log2(value)*12)}%,${100-(Math.log2(value)*12)}%)`
+}
+assignRandom();
+assignRandom();
+display();
