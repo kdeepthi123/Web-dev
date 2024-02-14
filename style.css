@@ -24,5 +24,19 @@ body {
     padding: 2vmin;
     border-radius: 1vmin;
     position: relative;
-    
+
+}
+
+.tile {
+    border-radius: 1vmin;
+    background-color: #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #111;
+    font-weight: bold;
+}
+
+.active {
+    background-color: hs1(10, 50%, 50);
 }
