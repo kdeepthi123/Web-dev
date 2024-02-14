@@ -47,3 +47,22 @@ function assignRandom() {
         }
     }
 }
+
+window.addEventListener('keyup', (e) => {
+    switch (e.key) {
+        case "ArrowUp":
+            moveUp();
+            break;
+        case "ArrowDown":
+            moveDown();
+            break;
+        case "ArrowLeft":
+            moveLeft();
+            break;
+        default:
+            return
+    }
+    display()
+    assignRandom()
+    display()
+})
