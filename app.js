@@ -1,3 +1,4 @@
+// Deepthi and Neelima
 const board=[
     [0,0,0,0],
     [0,0,0,0],
@@ -77,3 +78,5 @@ function changeColor(row,col){
 assignRandom();
 assignRandom();
 display();
+
+// Tested and found no error - Deepthi and Neelima
